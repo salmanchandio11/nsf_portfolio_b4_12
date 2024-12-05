@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 1.6rem;
+    color: rgba(245, 245, 245, 0.445);
+    border-radius: 0 0 1rem 1rem;
+    padding: 0.7rem 3rem;
+    background-color: #36363691;
+}
+
+.header-list-items {
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Hover effect */
+.header-list-items:hover {
+    color: whitesmoke
+}
+
+/* Ensure links inherit styles */
+.header-list-items a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Active link styling */
+.header-list-items .active {
+    color: rgb(240, 59, 59);
+
+}
+
+
+
+/* testing code */
