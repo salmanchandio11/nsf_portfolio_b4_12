@@ -1,5 +1,6 @@
 import React from 'react'
 import { SiEducative } from 'react-icons/si'
+import './resume.css'
 
 const Resume = () => {
 
@@ -27,8 +28,8 @@ const Resume = () => {
 
         Experience: [
             {
-                company: "Google",
-                position: "Software Engineer",
+                company: "Toyota Pakistan",
+                position: "Accountant",
                 duration: "May 2022 - Present",
                 description: "Designed and implemented a machine learning algorithm to predict customer churn in a telecommunications company's network."
             },
@@ -47,17 +48,61 @@ const Resume = () => {
         ]
     }
 
-    console.log(Object.values(ResumeData).map((item) => (item.Education)), "asdasdasd")
+    // console.log(Object.values(ResumeData).map((item) => (item.Education)), "asdasdasd")
+
+
+    const ResumeDataAll = ResumeData.Education.map((item) => (item.degree));
+
+    console.log(ResumeDataAll);
+
+
 
 
     return (
-        <div>
+        <div className='resume'>
             <h1>Resume</h1>
 
 
-            {Object.keys(ResumeData)}
 
-            {Object.values(ResumeData).map((item) => (item.Education))}
+            <div className='icon-title'>
+                <span>{Object.values(ResumeData)[0]}</span>
+                <h1>  {Object.keys(ResumeData)[1]}</h1>
+            </div>
+
+
+            {ResumeData.Education.map((item, index) => {
+                return (
+                    <div key={index} className='data'>
+                        <h2>{item.degree}</h2>
+                        <h2>{item.institution}</h2>
+                        <h3>{item.year}</h3>
+                    </div>  
+                )
+            })}
+
+
+
+            <div className='icon-title'> 
+
+                <span>{Object.values(ResumeData)[0]}</span>
+                <h1>{Object.keys(ResumeData)[2]}</h1>
+            </div>
+
+
+            {ResumeData.Experience.map((exp, index) => {
+                return (
+                    <div key={index} className='data'>
+                        <h2>{exp.company}</h2>
+                        <h3>{exp.position}</h3>
+                        <h4>{exp.duration}</h4>
+                        <p>{exp.description}</p>
+                    </div>
+                )
+            })}
+
+
+
+
         </div>
     )
 }
