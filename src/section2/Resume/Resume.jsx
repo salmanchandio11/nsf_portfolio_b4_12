@@ -61,5 +61,5 @@ const Resume = () => {
         </div>
     )
 }
-w
+
 export default Resume
