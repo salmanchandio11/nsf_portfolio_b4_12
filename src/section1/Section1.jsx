@@ -1,6 +1,6 @@
 import React from 'react'
 import './section1.css'
-import profilePicture from '../images/subahn.jpg'
+import profilePicture from '../images/salman.jpg'
 import { MdEmail } from "react-icons/md";
 import { FaFacebookF, FaGithub, FaPhone, FaTwitter } from "react-icons/fa";
 import { FaBirthdayCake } from "react-icons/fa";
@@ -14,20 +14,20 @@ const Section1 = () => {
         {
             img: <MdEmail />,
             title: "Email",
-            value: "tanweer@gmail.com",
+            value: "salmanchandio37@gmail.com",
             color: "#FFCFEF"
 
         },
         {
             img: <FaPhone />,
             title: "Phone",
-            value: "+923312345678",
+            value: "+923102750904",
             color: "#0A97B0"
         },
         {
             img: <FaBirthdayCake />,
             title: "Date of Birth",
-            value: "5th May, 2000",
+            value: "1st April, 2001",
             color: "#0A5EB0"
         },
         {
@@ -69,7 +69,7 @@ const Section1 = () => {
                     <img src={profilePicture} className='section-1-pp' />
                 </div>
 
-                <h1 className='main-name'>Daniyal</h1>
+                <h1 className='main-name'>Salman Chandio</h1>
 
                 <div>
                     <p className='frontend-dev'>Frontend Developer</p>

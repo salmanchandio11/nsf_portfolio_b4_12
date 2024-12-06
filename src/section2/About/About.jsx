@@ -35,10 +35,13 @@ const About = () => {
 
 
             <div className='about-section-paragraph'>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic illum in est modi ipsam nostrum numquam ad iusto perferendis, maiores labore. Alias odit consequuntur mollitia quidem ipsum? Magni, totam perspiciatis!</p>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam eveniet dolorem accusamus vero quam ab error voluptates cum quo, id aspernatur sint porro vel quibusdam praesentium libero alias sed optio!
-                    Quibusdam quasi a vero dolorum dignissimos ducimus? Neque, reprehenderit unde labore at delectus, aspernatur repellat laudantium distinctio totam quibusdam sunt alias ab quis doloribus, corporis deserunt est hic. Sint, laborum?
+                I am a Frontend Developer with a passion for building beautiful and functional websites. Skilled in HTML, CSS, JavaScript, and frameworks like React and Angular, I focus on creating clean, responsive designs that offer seamless user experiences. I’m always eager to learn new technologies and keep up with the latest trends in web development.   
+                </p>
+                <p>
+                With experience in both solo and team projects, I thrive in collaborative environments where I can contribute not only my technical expertise but also my problem-solving abilities. I love transforming wireframes and design concepts into interactive, user-friendly applications, ensuring that every detail is optimized for performance and accessibility. Beyond coding, I enjoy exploring new design trends, working closely with designers to ensure visual consistency, and constantly improving the usability of websites. My goal is to craft front-end solutions that not only look great but also function flawlessly across all devices and browsers, creating a positive and engaging experience for every user.
+
+
                 </p>
             </div>
 
